@@ -25,7 +25,7 @@ public class MultipleOf3and5 {
     }
 
     public static void main(String[] args) {
-        System.out.println( findSum(3,1000) + findSum(5,1000) - findSum(15,1000));
+        System.out.println( findSum(3,999) + findSum(5,999) - findSum(15,999));
     }
 
 }

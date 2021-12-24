@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f97206-3790-488a-a861-4049c8477a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultipleOf3and5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultipleOf3and5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultipleOf3and5.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +19,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MultipleOf3and5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="330">
+              <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +80,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -156,12 +159,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MultipleOf3and5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="330">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
           </folding>
         </state>
       </provider>
