@@ -15,7 +15,6 @@
  * Approach O(1)
  */
 
-import java.util.*;
 
 public class MultipleOf3and5 {
 

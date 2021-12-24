@@ -19,10 +19,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MultipleOf3and5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+            <state relative-caret-position="165">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
@@ -159,10 +158,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MultipleOf3and5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
