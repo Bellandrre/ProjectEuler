@@ -1,7 +1,6 @@
 public class LargestPalidromicProduct {
 
     /* Converting number to a string and then checking if the number isPal is no brainer.  Check this out B) -*/
-
     public static boolean isPalidrome(long inputNumber){
         long temp = inputNumber;
         long reversedNum = 0;
@@ -15,7 +14,6 @@ public class LargestPalidromicProduct {
         }
         return reversedNum == inputNumber;
     }
-
 
     public static long nearestThreeDigitPalindrome(){
         long largestProduct = Long.MIN_VALUE;
