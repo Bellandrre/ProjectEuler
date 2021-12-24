@@ -14,15 +14,16 @@ public class LargestPrimeFactor {
 
 
     public static long findLargestPrimeFactor(long num){
-
-        long root = (long)Math.sqrt(num);
         long largestPrimeFactor = 0;
-        for(long l = root; l >=1 ; l--){
+        for(long l = 2; l * l < num ; l++){
             if(num % l == 0){
                 //Possible prime number
                 //Check if this is a prime
                 if(isPrime(l)){
                     largestPrimeFactor = Math.max(largestPrimeFactor,l);
+                }
+                if(isPrime(num/l)){
+                    largestPrimeFactor = Math.max(largestPrimeFactor,num/l);
                 }
             }
         }
@@ -39,10 +40,24 @@ public class LargestPrimeFactor {
         return factors == 2;
     }
 
-
-
+    // Prime factorization
+    public static long findLargestPrimeFactorImproved(long num){
+        long divisor = 2;
+        long newNumber = num;
+        long largestCandidate = 2;
+        while(divisor * divisor <= newNumber){
+            if(newNumber % divisor == 0){
+                newNumber /= divisor;
+                largestCandidate = divisor;
+            }else{
+                divisor++;
+            }
+        }
+        return Math.max(largestCandidate, newNumber);
+    }
 
     public static void main(String[] args) {
         System.out.println(findLargestPrimeFactor(15));
+        System.out.println(findLargestPrimeFactorImproved(15));
     }
 }
