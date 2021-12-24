@@ -57,7 +57,7 @@ public class LargestPrimeFactor {
     }
 
     public static void main(String[] args) {
-        System.out.println(findLargestPrimeFactor(15));
-        System.out.println(findLargestPrimeFactorImproved(15));
+        System.out.println(findLargestPrimeFactor(600851475143L));
+        System.out.println(findLargestPrimeFactorImproved(600851475143L));
     }
 }
